@@ -46,7 +46,7 @@ static unsigned int lineheight = 0;           /* default 0, overridden by -h */
 static const unsigned int min_lineheight = 8; /* smallest allowed height */
 static unsigned int border_width =
     0; /* default border width, overridden by -bw */
-static unsigned long border_color = 0xff0000; // default red
+static unsigned long border_color = 0x000000; // default none (no border by default)
 
 unsigned long parse_hex_color(const char *hex) {
   unsigned long color = 0;
